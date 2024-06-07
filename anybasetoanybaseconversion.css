@@ -1,1 +1,60 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.name{
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    place-items: center;
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,0.4757834757834758) 0%, rgba(10,126,190,0.9) 10%, rgba(105,2,115,0.9) 33%, rgba(230,7,7,5) 51%, rgba(130,3,125,0.9) 67%, rgba(7,125,196,0.9) 90%, rgba(0,0,79,0.3874643874643875) 100%),
+    url("https://images.pexels.com/photos/5185093/pexels-photo-5185093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% auto;
+}
+h1{
+    text-shadow: 2px 2px 1px red;
+}
 
+input:hover{
+    background-color: #A6A5A4;
+}
+h1:hover, #numb:hover, #ba1:hover, #ba2:hover{
+    text-shadow: 2px 2px 20px red;
+}
+#btn:hover{
+    background-color: rgb(36, 129, 210);
+
+}
+#number{
+    margin-top: 200px;
+    /* display: inline; */
+    /* margin: auto; */
+}
+#numb{
+    display: inline;
+}
+#base1{
+    margin-top: 20px;
+}
+#base2{
+    margin-top: 20px;
+
+}
+#btn{
+    margin-right: 20%;
+    border-radius: 100px;
+
+    
+}
+#output{ 
+    height: 40px;
+    width: 200px;
+    margin-left: 50%;
+    border: 2px solid black;
+    border-radius: 100px;
+
+}
